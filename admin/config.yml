@@ -5,7 +5,7 @@ media_folder: "images/uploads"
 collections:
   - name: "blog" # Jaká bude cesta ke kolekci v administraci,např. /admin/collections/novinky
     label: "Blog" # Jak se kolekce jmenuje v UI administrace
-    folder: "novinky" # Ve které složce jsou stránky/příspěvky uložené v Eleventy
+    folder: "blog" # Ve které složce jsou stránky/příspěvky uložené v Eleventy
     create: true # Uživatel může přidávat nové stránky/příspěvky (nebo false, pokud nemůže)
     slug: "{{slug}}" # Šablona jmen souborů, např. YYYY-MM-DD-title.md nebo tam můžeme nechat jen slug a bude jen z názvu
     fields: # Pole, která budeme editovat. Obvykle data uložená ve front matter
